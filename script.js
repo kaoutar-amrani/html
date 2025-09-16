@@ -1,13 +1,6 @@
-let age = 20;
-if(age<18)
+for(let i = 1; i<= 10; i++)
 {
-    console.log("vous etes mineur");
-}
-else if(age===18)
-{
-    console.log("vous vevez d'atteindre la majorité !");
-}
-else
-{
-    console.log("vous etre majeur.");
+    // sauter le 5
+    if(i === 5) continue;
+    console.log("Nombre : " + i);
 }
