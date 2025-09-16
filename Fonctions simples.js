@@ -1,3 +1,4 @@
+// Chapitre 2 – Fonctions simples
 function addition(a, b) {
   return a + b;
 }
